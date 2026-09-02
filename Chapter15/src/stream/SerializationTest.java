@@ -58,9 +58,6 @@ public class SerializationTest {
             throw new RuntimeException(e);
         }
 
-        Socket socket = new Socket("127.0.0.1", 8080);
-        BufferedReader br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-
     }
 
 
