@@ -12,7 +12,7 @@ public class ArrayListTest {
         bookArrayList.add(new Book("태백산맥2", "조정래"));
         bookArrayList.add(new Book("태백산맥3", "조정래"));
 
-        for(int i =0; i <bookArrayList.size()-1; i++){
+        for(int i =0; i <bookArrayList.size(); i++){
             bookArrayList.get(i).showBookInfo();
         }
 
