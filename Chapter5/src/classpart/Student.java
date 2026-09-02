@@ -8,6 +8,10 @@ public class Student {
         return studentName;
     }
 
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
     public void showStudentInfo(){
         System.out.println("classpart.Student ID: " + studentID + "\n classpart.Student Name: " + studentName + "\n");
     }
