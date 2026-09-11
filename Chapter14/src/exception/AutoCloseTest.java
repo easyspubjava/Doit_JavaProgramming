@@ -4,7 +4,7 @@ public class AutoCloseTest {
 
     public static void main(String[] args) {
 
-        AutoClostObj obj = new AutoClostObj();
+        AutoCloseObj obj = new AutoCloseObj();
 
         try( obj){
             throw new Exception();

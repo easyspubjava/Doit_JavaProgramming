@@ -1,6 +1,6 @@
 package exception;
 
-public class AutoClostObj implements AutoCloseable{
+public class AutoCloseObj implements AutoCloseable{
     @Override
     public void close() throws Exception {
         System.out.println("auto close obj");

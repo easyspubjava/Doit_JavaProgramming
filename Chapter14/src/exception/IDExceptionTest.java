@@ -1,6 +1,6 @@
 package exception;
 
-public class IDExcetionTest {
+public class IDExceptionTest {
 
     private String id;
 
@@ -18,7 +18,7 @@ public class IDExcetionTest {
     }
 
     public static void main(String[] args) {
-        IDExcetionTest test = new IDExcetionTest();
+        IDExceptionTest test = new IDExceptionTest();
 
         try {
             test.setId("abc");
