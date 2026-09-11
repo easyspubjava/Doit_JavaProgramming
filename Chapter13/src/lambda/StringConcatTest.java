@@ -3,7 +3,7 @@ package lambda;
 public class StringConcatTest {
 
     public static void main(String[] args) {
-        StingConcatImpl st = new StingConcatImpl();
+        StringConcatImpl st = new StringConcatImpl();
         st.makeString("hello", "world");
 
         StringConcat concat = (s, v) -> System.out.println(s + "," + v);
