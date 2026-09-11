@@ -1,4 +1,4 @@
-package gamelevel;
+package homework3;
 
 public class SuperLevel extends PlayerLevel{
 	@Override

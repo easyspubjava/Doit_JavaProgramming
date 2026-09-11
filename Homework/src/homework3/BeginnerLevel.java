@@ -1,4 +1,4 @@
-package gamelevel;
+package homework3;
 
 public class BeginnerLevel extends PlayerLevel{
 
@@ -21,5 +21,4 @@ public class BeginnerLevel extends PlayerLevel{
 	public void showLevelMessage() {
 		System.out.println("***** 초보자 레벨입니다. *****");
 	}
-
 }

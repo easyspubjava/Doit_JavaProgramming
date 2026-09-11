@@ -1,4 +1,4 @@
-package chapter6.q11;
+package homework2;
 
 public class Car {
 

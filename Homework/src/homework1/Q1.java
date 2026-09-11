@@ -11,6 +11,6 @@ public class Q1 {
                 break;
         }
         System.out.println("num : " + num);
-        System.out.println("sun : " + sum);
+        System.out.println("sum : " + sum);
     }
 }

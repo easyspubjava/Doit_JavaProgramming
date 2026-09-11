@@ -1,4 +1,4 @@
-package chapter12.q6;
+package homework4;
 
 public class Car {
 	String name;

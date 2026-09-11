@@ -1,4 +1,4 @@
-package gamelevel;
+package homework3;
 
 public class MainBoard {
 
@@ -13,7 +13,5 @@ public class MainBoard {
 		player.upgradeLevel(sLevel);
 		player.play(3);
 
-		String str = new String();
-		
 	}
 }
