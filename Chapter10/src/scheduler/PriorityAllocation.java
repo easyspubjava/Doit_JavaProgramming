@@ -1,4 +1,4 @@
-package sheduler;
+package scheduler;
 
 public class PriorityAllocation implements Scheduler{
 

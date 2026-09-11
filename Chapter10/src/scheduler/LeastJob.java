@@ -1,4 +1,4 @@
-package sheduler;
+package scheduler;
 
 public class LeastJob implements Scheduler{
 
