@@ -37,9 +37,9 @@ class Student extends Thread {
 
     public void run() {
         try {
-            String title =  LibarayMain.library.lendBook();
+            String title =  LibraryMain.library.lendBook();
             Thread.sleep(5000);
-            LibarayMain.library.returnBook(title);
+            LibraryMain.library.returnBook(title);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -47,7 +47,7 @@ class Student extends Thread {
     }
 }
 
-public class LibarayMain {
+public class LibraryMain {
     public static Library library = new Library();
 
     public static void main(String[] args) {
