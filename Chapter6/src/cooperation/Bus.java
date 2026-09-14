@@ -5,9 +5,9 @@ public class Bus {
 		 int passengerCount;
 		 int money;
 		    
-		 public Bus(int busNumebr)
+		 public Bus(int busNumber)
 		 {   
-			  this.busNumber = busNumebr;
+			  this.busNumber = busNumber;
 		 }
 		
 		 public void take(int money)
