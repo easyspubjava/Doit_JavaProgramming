@@ -1,4 +1,4 @@
-package assingment;
+package assignment;
 
 public class OperationEx0 {
 
